@@ -8,7 +8,7 @@ So how would an AsyncPoolProcessor look?
 
 ```python
 class AsyncPoolExecutor(Executor):
-    ...
+
     def submit(self, fn, *args, **kwargs):
         """ part of the executor api """
         if self.running is False:
