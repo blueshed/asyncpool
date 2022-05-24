@@ -1,0 +1,6 @@
+*.pyc
+.benchmarks
+.pytest_cache
+venv
+.coverage*
+src/server.egg-info
